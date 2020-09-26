@@ -73,7 +73,7 @@ export type EquationNodeOperatorPlaceholder = EquationNodeTwoValues<'operator-pl
 export type EquationNodeOperatorUnaryPlaceholder = EquationNodeOneValue<'operator-unary-placeholder'>
 
 export type EquationNode =
-    | EquationNodeVariable
+    EquationNodeVariable
     | EquationNodeNumber
     | EquationNodePositive
     | EquationNodeNegative

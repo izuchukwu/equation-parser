@@ -7,9 +7,9 @@
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kgram/equation-parser.git"
+    "url": "https://github.com/izuchukwu/equation-parser.git"
   },
-  "homepage": "https://github.com/kgram/equation-parser",
+  "homepage": "https://github.com/izuchukwu/equation-parser",
   "author": "Kristoffer Gram <kristoffer.gram@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,7 @@
     "lint": "eslint \"{src,tests}/**/*.ts\" rollup.config.js",
     "types": "tsc -d --emitDeclarationOnly --outDir dist",
     "bundle": "rollup -c rollup.config.js",
-    "prepare": "rimraf dist && yarn lint && yarn test && yarn types && yarn bundle"
+    "prepare": "rimraf dist && npm run lint && npm run test && npm run types && npm run bundle"
   },
   "files": [
     "dist",

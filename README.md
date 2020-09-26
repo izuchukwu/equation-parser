@@ -1,6 +1,7 @@
 # `equation-parser` – Parse math to an AST
 
 Parses a plaintext string of unicode math to an AST.
+This fork removes TS type exports as a workaround to issues with its exported types.
 
 ## Installation
 
