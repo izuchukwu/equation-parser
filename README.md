@@ -1,7 +1,8 @@
 # `equation-parser` – Parse math to an AST
 
 Parses a plaintext string of unicode math to an AST.
-This fork removes TS type exports as a workaround to issues with its exported types.
+This fork updates how TS types are re-exported to support `--isolatedModules`.
+See issue [create-react-app #6054](https://github.com/facebook/create-react-app/issues/6054)
 
 ## Installation
 
