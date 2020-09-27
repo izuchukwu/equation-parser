@@ -1,17 +1,13 @@
 # `equation-parser` – Parse math to an AST
 
 Parses a plaintext string of unicode math to an AST.
-This fork updates how TS types are re-exported to support `--isolatedModules`.
-See issue [create-react-app #6054](https://github.com/facebook/create-react-app/issues/6054)
+
+This fork updates how TS types are re-exported to support `--isolatedModules`. See issue [create-react-app #6054](https://github.com/facebook/create-react-app/issues/6054)
 
 ## Installation
 
 ```
-npm install -S equation-parser
-```
-or
-```
-yarn add equation-parser
+npm i git+https://github.com/izuchukwu/equation-parser
 ```
 
 ## API
